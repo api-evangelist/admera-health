@@ -1,0 +1,53 @@
+generated: '2026-09-07'
+method: searched
+source: https://www.admerahealth.com/certifications
+note: >-
+  Admera Health publishes no machine-readable API contract, so there is nothing to derive
+  cross-cutting API standards (OAuth2, OIDC, RFC 9457, pagination, idempotency) from -- those
+  entries are recorded as conforms:false with the reason "no published contract", not as
+  failures of the provider's engineering. What the provider DOES publish is a laboratory
+  accreditation and licensure posture, read verbatim from its own certifications page. The
+  domain standard for this market -- HL7/FHIR genomics reporting or a GA4GH interface -- is not
+  claimed anywhere on the public site, and is recorded honestly as unclaimed rather than
+  inferred from the sector.
+standards:
+- id: clia
+  name: Clinical Laboratory Improvement Amendments (CLIA)
+  conforms: true
+  evidence: >-
+    https://www.admerahealth.com/certifications -- "Admera Health consistently upholds CLIA
+    validation credentials each year"; a CLIA certificate is published on the page.
+- id: cap-accreditation
+  name: College of American Pathologists (CAP) laboratory accreditation
+  conforms: true
+  evidence: >-
+    https://www.admerahealth.com/certifications -- CAP accreditation document published; CAP
+    peer inspection every two years with proficiency testing.
+- id: us-state-clinical-laboratory-licensure
+  name: State clinical laboratory licenses
+  conforms: true
+  evidence: >-
+    https://www.admerahealth.com/certifications -- licenses listed for New York, New Jersey,
+    California, Maryland, Pennsylvania and Rhode Island.
+- id: fhir-genomics
+  name: HL7 FHIR Genomics Reporting Implementation Guide
+  conforms: false
+  evidence: >-
+    No FHIR, HL7 or genomics-reporting profile claim appears anywhere on www.admerahealth.com
+    (sitemap.xml, 163 URLs, checked 2026-09-07). The sector's domain standard is unclaimed.
+- id: ga4gh
+  name: Global Alliance for Genomics and Health (htsget / Beacon / DRS) interfaces
+  conforms: false
+  evidence: >-
+    No GA4GH interface, Beacon endpoint or htsget surface is published or referenced.
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false
+  evidence: >-
+    No published contract or auth documentation. The EraTrack portal (ui.admerahealth.com) uses
+    a first-party username/password login with no documented OAuth surface, and
+    /.well-known/oauth-authorization-server returns 404 on every host probed.
+- id: rfc9457-problem-details
+  name: RFC 9457 Problem Details for HTTP APIs
+  conforms: false
+  evidence: No published OpenAPI or error reference to read response media types from.

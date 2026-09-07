@@ -1,0 +1,24 @@
+generated: '2026-09-07'
+method: searched
+source: https://www.admerahealth.com/request-quote
+plan_count: 0
+model: quote-based
+currency: null
+note: >-
+  Admera Health publishes no pricing tiers, no rate card and no self-serve plans. Every service
+  -- sequencing, library prep, bioinformatics analysis, BioEcho purification products -- is sold
+  through a "Request Quote" form, and the EraTrack project lifecycle the provider documents
+  begins at "Quote Pending / Quote Confirmed / Quote Accepted", confirming quote-first commercial
+  terms rather than published plans. /pricing returns 404 on www.admerahealth.com; the only
+  price-adjacent public page is /promotion, which carries time-limited service promotions rather
+  than a plan catalog. plan_count: 0 is a measured absence, not an unchecked field.
+plans: []
+evidence:
+- url: https://www.admerahealth.com/request-quote
+  status: 200
+- url: https://www.admerahealth.com/pricing
+  status: 404
+- url: https://www.admerahealth.com/promotion
+  status: 200
+- url: https://www.admerahealth.com/eratrack-customer-portal
+  status: 200

@@ -1,0 +1,46 @@
+# Admera Health
+
+> Admera Health delivers genomics, RNA-seq, single-cell, spatial, and multi-omics sequencing and bioinformatics services for academia, biotech, and biopharma. CLIA-certified, CAP-accredited, 100% US-based operations in South Plainfield, NJ.
+
+Admera Health is a full-service genomics CRO offering next-generation sequencing (NGS), library preparation, and bioinformatics analysis across bulk RNA-seq, single-cell, spatial transcriptomics, whole genome/exome sequencing, epigenomics, proteomics, and metabolomics — supporting 19,000+ peer-reviewed publications with a 99.9% data quality pass-through rate and ~10-14 day average turnaround.
+
+## Services & Products
+
+- [Genomics](https://www.admerahealth.com/genomic): Whole genome sequencing, whole exome sequencing, metagenomics, amplicon sequencing
+- [Transcriptomics](https://www.admerahealth.com/transcriptomic): mRNA-seq, total RNA-seq, smRNA-seq, Iso-seq, metatranscriptomics
+- [Epigenomics](https://www.admerahealth.com/epigenomics): Methylation sequencing, ATAC-seq, ChIP-seq
+- [Single-Cell Sequencing](https://www.admerahealth.com/single-cell): 10x Genomics, Parse Biosciences, Takara Bio platforms
+- [Spatial Transcriptomics](https://www.admerahealth.com/spatial-transcriptomics): 10x Genomics Visium HD, STOmics Stereo-seq
+- [Bioinformatic Analysis](https://www.admerahealth.com/bioinformatics): Custom pipelines and interpretive reporting
+- [Proteomics](https://www.admerahealth.com/proteomics)
+- [Metabolomics](https://www.admerahealth.com/metabolomics)
+- [Sequencing Only](https://www.admerahealth.com/sequencing-only)
+- [Biopharma Solutions](https://www.admerahealth.com/biopharma-solutions-multiomics): CRISPR solutions, neoantigen identification, biomarker discovery, high-throughput gene expression
+- [BioEcho Purification Products](https://www.admerahealth.com/bioecho-purification-products): Nucleic acid extraction/purification kits
+
+## Resources
+
+- [FAQs](https://www.admerahealth.com/faqs)
+- [Demo Reports](https://www.admerahealth.com/bioinformatics-demo-data): Sample sequencing and analysis reports
+- [Technology](https://www.admerahealth.com/technology): Sequencing platforms and instrumentation
+- [Publications](https://www.admerahealth.com/publications): Peer-reviewed studies supported by Admera Health
+- [Customer Resources](https://www.admerahealth.com/customer-resources): Sample submission guidelines and forms
+- [Blog](https://www.admerahealth.com/blog)
+- [Events & Webinars](https://www.admerahealth.com/events-webinar)
+
+## Company
+
+- [About Us](https://www.admerahealth.com/about-us)
+- [Certifications](https://www.admerahealth.com/certifications): CLIA/CAP accreditation details
+- [Meet Our Team](https://www.admerahealth.com/meet-our-team)
+- [Partnerships](https://www.admerahealth.com/partnerships)
+- [News](https://www.admerahealth.com/news)
+- [Careers](https://www.admerahealth.com/careers)
+- [Contact Us](https://www.admerahealth.com/contact)
+- [Request a Quote](https://www.admerahealth.com/request-quote)
+
+## Optional
+
+- [Privacy Policy](https://www.admerahealth.com/privacy-policy)
+- [Terms of Service](https://www.admerahealth.com/terms-of-service)
+- [Promotions](https://www.admerahealth.com/promotion)

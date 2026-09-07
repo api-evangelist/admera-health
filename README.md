@@ -64,5 +64,25 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Admera Health is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Admera Health is a CLIA-certified and CAP-accredited genomics service provider and contract research organization in South Plainfield, New Jersey, established in 2014 as a spinout of GENEWIZ. It runs US-based next-generation sequencing, library preparation and bioinformatics operations — whole genome and exome sequencing, bulk and single-cell RNA-seq, spatial transcriptomics, epigenomics, proteomics and metabolomics — for academic, biotech and biopharma customers, plus BioEcho nucleic acid purification products.
+
+- https://www.admerahealth.com/
+
+## API surface
+
+Admera Health publishes **no public API, SDK, webhook surface or developer program**. Customers
+submit and track projects through EraTrack, a login-only web portal at `ui.admerahealth.com`; the
+backend behind it at `api.admerahealth.com` returns 404 to every OpenAPI, Swagger, GraphQL, docs and
+`/.well-known/` path probed on 2026-09-07. This profile therefore records an honest absence
+(`x-coverage: none / no-developer-program`) rather than a contract.
+
+What the company does publish, and what is captured here:
+
+- `llms/admera-health-llms.txt` — a real, provider-authored `llms.txt` served at
+  `https://www.admerahealth.com/llms.txt` (HTTP 200), saved verbatim.
+- `well-known/admera-health-well-known.yml` — the full named `/.well-known/` probe across four
+  hosts (48 paths, all 404) with a passing path-echo negative control.
+- `conformance/admera-health-conformance.yml` — CLIA certification, CAP accreditation and state
+  clinical laboratory licensure, read from the company's own certifications page.
+- `plans/admera-health-plans-pricing.yml` — quote-based commercial model, no published plans.
+- `security/admera-health-domain-security.yml` — probed TLS, DNSSEC, CAA, SPF and DMARC posture.
