@@ -64,25 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Admera Health is a CLIA-certified and CAP-accredited genomics service provider and contract research organization in South Plainfield, New Jersey, established in 2014 as a spinout of GENEWIZ. It runs US-based next-generation sequencing, library preparation and bioinformatics operations — whole genome and exome sequencing, bulk and single-cell RNA-seq, spatial transcriptomics, epigenomics, proteomics and metabolomics — for academic, biotech and biopharma customers, plus BioEcho nucleic acid purification products.
+Admera Health is a CLIA-certified and CAP-accredited genomics service provider and contract research organization headquartered in South Plainfield, New Jersey, established in 2014 as a spinout of GENEWIZ. It runs 100% US-based next-generation sequencing, library preparation and bioinformatics operations for academic, biotech and biopharma customers, spanning whole genome and whole exome sequencing, metagenomics and amplicon sequencing, bulk and small RNA-seq, single-cell sequencing on 10x Genomics, Parse Biosciences and Takara Bio platforms, spatial transcriptomics on Visium HD and STOmics Stereo-seq, epigenomics, proteomics and metabolomics, plus BioEcho nucleic acid purification products. Customers submit and track projects through EraTrack, a login-only web portal. Admera Health publishes no public developer program, API reference, SDK or machine-readable specification of any kind.
 
-- https://www.admerahealth.com/
+**Areas:** Company · Genomics · Sequencing · Bioinformatics · Life Sciences · Healthcare · Laboratory Services · Biotechnology · Multiomics · Contract Research
 
-## API surface
+## Admera Health on APIs.io
 
-Admera Health publishes **no public API, SDK, webhook surface or developer program**. Customers
-submit and track projects through EraTrack, a login-only web portal at `ui.admerahealth.com`; the
-backend behind it at `api.admerahealth.com` returns 404 to every OpenAPI, Swagger, GraphQL, docs and
-`/.well-known/` path probed on 2026-09-07. This profile therefore records an honest absence
-(`x-coverage: none / no-developer-program`) rather than a contract.
+Everything profiled for Admera Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/admera-health/](https://apis.io/providers/admera-health/)** — or go straight to one of the APIs or properties below.
 
-What the company does publish, and what is captured here:
+### Published properties
 
-- `llms/admera-health-llms.txt` — a real, provider-authored `llms.txt` served at
-  `https://www.admerahealth.com/llms.txt` (HTTP 200), saved verbatim.
-- `well-known/admera-health-well-known.yml` — the full named `/.well-known/` probe across four
-  hosts (48 paths, all 404) with a passing path-echo negative control.
-- `conformance/admera-health-conformance.yml` — CLIA certification, CAP accreditation and state
-  clinical laboratory licensure, read from the company's own certifications page.
-- `plans/admera-health-plans-pricing.yml` — quote-based commercial model, no published plans.
-- `security/admera-health-domain-security.yml` — probed TLS, DNSSEC, CAA, SPF and DMARC posture.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Admera Health Domain Security](https://apis.io/security/admera-health/admera-health-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Admera Health Plans Pricing](https://apis.io/plans/admera-health/admera-health-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.admerahealth.com/)
+- [Support](https://admerahealth.zendesk.com/hc/en-us)
+- [Blog](https://www.admerahealth.com/news)
+- [Compliance](https://www.admerahealth.com/certifications)
+- [Terms of service](https://www.admerahealth.com/terms-of-service)
+- [Privacy policy](https://www.admerahealth.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 18.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 42.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/admera-health/](https://apis.io/providers/admera-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Admera Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/admera-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
